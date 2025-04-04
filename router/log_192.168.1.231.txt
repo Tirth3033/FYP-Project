@@ -1,0 +1,12 @@
+Statistics for IP: 192.168.1.231
+Total Packets: 1000
+Total Bytes: 1756655
+Latency (ms):
+  Min: 128.847500
+  Avg: 138.707451
+  Max: 356.460000
+Jitter (ms):
+  Avg: 9.710041
+  Max: 111.732000
+Packet Loss Rate (%): 0.000000%
+Throughput (bytes/s): 12664.460230
