@@ -60,8 +60,8 @@ sudo ./start.sh -a [algo_name]
 - The following **log files will be generated**:
   - **Router:** `receiver_log.txt`
   - **Each RPi:** `sender_log.txt`
-  - **Router:** `ip_1_stats.log`, `ip_2_stats.log`, `ip_3_stats.log`, `ip_4_stats.log`
-  - **Router:** `combined_stats.log` (contains consolidated statistics analysis)
+  - **Router:** `log_192.168.1.230.txt`, `log_192.168.1.231.txt`, `log_192.168.1.232.txt`, `log_192.168.1.234.txt`
+  - **Router:** `combined_log.txt` (contains consolidated statistics analysis)
 
 # Packet Scheduler System - README
 
