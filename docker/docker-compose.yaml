@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  openwrt-sdk:
+    build: .
+    image: openwrt-sdk
+    container_name: openwrt-sdk
+    network_mode: "host"
+    volumes:
+      - ../:/source
+    stdin_open: true
+    tty: true

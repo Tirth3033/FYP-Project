@@ -1,0 +1,11 @@
+*.log
+*log*.txt
+*.docx
+*.pdf
+*.cmd
+*.symvers
+*.order
+*.ko
+*.mod*
+*.o
+*.tar.zst

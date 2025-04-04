@@ -1,0 +1,56 @@
+version: '3'
+
+services:
+  rpi0:
+    image: openwrt-sdk
+    container_name: rpi0
+    networks:
+      - lan
+    volumes:
+      - ../:/source
+    stdin_open: true
+    tty: true
+
+  rpi1:
+    image: openwrt-sdk
+    container_name: rpi1
+    networks:
+      - lan
+    volumes:
+      - ../:/source
+    stdin_open: true
+    tty: true
+
+  rpi2:
+    image: openwrt-sdk
+    container_name: rpi2
+    networks:
+      - lan
+    volumes:
+      - ../:/source
+    stdin_open: true
+    tty: true
+
+  rpi3:
+    image: openwrt-sdk
+    container_name: rpi3
+    networks:
+      - lan
+    volumes:
+      - ../:/source
+    stdin_open: true
+    tty: true
+
+  router:
+    image: openwrt-sdk
+    container_name: router
+    networks:
+      - lan
+    volumes:
+      - ../:/source
+    stdin_open: true
+    tty: true
+
+networks:
+  lan:
+    driver: bridge
