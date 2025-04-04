@@ -47,15 +47,15 @@ FYP-Project/
    sudo docker-compose up -d
    ```
 4. Gain root access to router using the invasion script.
-5. Transfer OpenWRT firmware:
+5. Rename this file to kernel1.bin . download from this link : https://downloads.openwrt.org/releases/24.10.0/targets/ramips/mt7621/openwrt-24.10.0-ramips-mt7621-xiaomi_mi-router-4a-gigabit-squashfs-sysupgrade.bin
+   
+6. Transfer OpenWRT firmware:
    ```bash
    curl http://<your-ip>:8000/kernel1.bin --output kernel1.bin
-   curl http://<your-ip>:8000/rootfs0.bin --output rootfs0.bin
    mtd write kernel1.bin kernel1
-   mtd write rootfs0.bin rootfs0
    reboot
    ```
-6. Flash the OpenWRT sysupgrade `.bin` via the LuCI GUI.
+7. Flash the OpenWRT sysupgrade `.bin` via the LuCI GUI.
 
 ---
 
