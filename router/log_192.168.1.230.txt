@@ -1,0 +1,12 @@
+Statistics for IP: 192.168.1.230
+Total Packets: 1000
+Total Bytes: 1761893
+Latency (ms):
+  Min: 129.303250
+  Avg: 138.674750
+  Max: 247.746500
+Jitter (ms):
+  Avg: 8.923261
+  Max: 60.205391
+Packet Loss Rate (%): 0.000000%
+Throughput (bytes/s): 12705.218529

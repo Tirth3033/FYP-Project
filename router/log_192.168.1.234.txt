@@ -1,0 +1,12 @@
+Statistics for IP: 192.168.1.234
+Total Packets: 1000
+Total Bytes: 1758629
+Latency (ms):
+  Min: 129.071250
+  Avg: 138.746104
+  Max: 357.617500
+Jitter (ms):
+  Avg: 9.781276
+  Max: 112.457125
+Packet Loss Rate (%): 0.000000%
+Throughput (bytes/s): 12675.159536

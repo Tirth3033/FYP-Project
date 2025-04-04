@@ -1,0 +1,12 @@
+Statistics for IP: 192.168.1.232
+Total Packets: 1000
+Total Bytes: 1758433
+Latency (ms):
+  Min: 129.590500
+  Avg: 138.947036
+  Max: 364.613750
+Jitter (ms):
+  Avg: 9.907299
+  Max: 115.915000
+Packet Loss Rate (%): 0.000000%
+Throughput (bytes/s): 12655.419270

@@ -1,0 +1,13 @@
+Statistics for IP: All IPs (Combined)
+Total Packets: 4000
+Total Bytes: 7035610
+Latency (ms):
+  Min: 128.847500
+  Avg: 138.768835
+  Max: 364.613750
+Jitter (ms):
+  Avg: 9.580469
+  Max: 115.915000
+Packet Loss Rate (%): 0.000000%
+Throughput (bytes/s): 12675.054142
+Jain's Fairness Index: 0.999998
